@@ -1,6 +1,5 @@
 <p align="center">
-  <!-- Вставьте сюда ваш логотип, например, из папки public/ -->
-  <img src="public/favicon.svg" alt="Krisha AI Logo" width="80" />
+  <img src="public/favicon.svg" alt="Krisha AI Logo" width="100" />
 </p>
 
 <h1 align="center">Krisha AI</h1>
@@ -134,7 +133,7 @@ MIT
 
 This project is a personal portfolio piece demonstrating RAG (Retrieval-Augmented Generation) capabilities in the Real Estate domain.
 
-**© Bexultan, 2025. All Rights Reserved.**
+**© Bexultan, 2026. All Rights Reserved.**
 
 The source code is available for educational purposes and inspection by potential employers only. Unauthorized copying, modification, distribution, or commercial use of this code is strictly prohibited.
 
