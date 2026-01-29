@@ -1,0 +1,48 @@
+# Add patterns to ignore here
+# Example:
+# *.log
+# tmp/
+*.*cache
+
+# Игнорировать сам конфиг repomix
+.repomixignore
+repomix.config.json
+
+# Игнорировать ВСЮ папку с тестами и всё, что внутри
+tests/
+logs/
+.venv/
+.github/
+.gitignore
+Dockerfile
+pyproject.toml
+pytest.ini
+README.md
+.dockerignore
+.python-version
+krisha.db
+krisha.db-shm
+krisha.db-wal
+.chainlit
+chainlit.md
+; KBTU_Template_Presentation/*
+public/*
+.files*
+*.fdb_latexmk
+*.vrb
+*.toc
+*.synctex.gz
+*.snm
+*.out
+*.nav
+*.log
+*.fls
+*.fdb_latexmk
+*.aux
+*.bib
+*.bbl
+*.blg
+analysis/*
+.pre-commit-config.yaml
+datasets/*
+requirements.txt

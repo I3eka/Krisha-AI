@@ -1,0 +1,43 @@
+/* public/custom.css */
+
+/* Hide the profile icons (avatars) for a cleaner "Search" look */
+.cl-avatar {
+    display: none !important;
+}
+
+/* Hide the user name labels */
+.cl-user-name {
+    display: none !important;
+}
+
+/* Center the welcome message content */
+.cl-message-content {
+    margin-left: 0 !important;
+}
+
+/* Make the input bar look slightly more detached/floating (optional) */
+#chat-input {
+    border-radius: 12px;
+}
+/* Стилизация заголовков H3 внутри сообщений (названия квартир) */
+.markdown-body h3 a {
+    /* Градиент от желтого (#FFCC33) к красному (#FF3333) */
+    background: linear-gradient(90deg, #FFCC33 0%, #FF3333 100%);
+
+    /* Обрезка фона по контуру текста */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+
+    /* Убираем подчеркивание, чтобы градиент смотрелся чище */
+    text-decoration: none !important;
+
+    /* Делаем шрифт чуть жирнее */
+    font-weight: 800;
+}
+
+/* Эффект при наведении - легкая прозрачность */
+.markdown-body h3 a:hover {
+    opacity: 0.8;
+    transition: opacity 0.2s ease;
+}

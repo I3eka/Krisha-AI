@@ -1,0 +1,8 @@
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <rect width="512" height="512" rx="90" ry="90" fill="#FCE068"/>
+  <g font-family="Arial, Helvetica, sans-serif" font-weight="900" text-anchor="middle" fill="#141414">
+    <text x="256" y="275" font-size="150" letter-spacing="-2">krisha</text>
+    <rect x="55" y="222" width="402" height="14" fill="#E81C1C"/>
+    <text x="256" y="420" font-size="150">AI</text>
+  </g>
+</svg>

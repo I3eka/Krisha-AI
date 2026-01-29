@@ -1,0 +1,22 @@
+<svg width="1200" height="800" viewBox="0 0 600 160" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Градиент от желтого к красному для букв AI -->
+    <linearGradient id="logoGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#FFCC33;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FF3333;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+
+  <!-- Группа элементов логотипа -->
+  <g font-family="'Century Gothic', 'Futura', 'Arial', sans-serif" font-weight="bold" font-size="120" letter-spacing="-4">
+
+    <!-- Текст "krisha" белого цвета -->
+    <text x="20" y="110" fill="white">krisha</text>
+
+    <!-- Текст "AI" с градиентом -->
+    <!-- Скорректируйте координату X, если шрифт на вашей системе отличается по ширине -->
+    <text x="350" y="110" fill="url(#logoGradient)">Al</text>
+  </g>
+
+</svg>

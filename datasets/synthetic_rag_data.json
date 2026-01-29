@@ -1,0 +1,164 @@
+[
+  {
+    "id": "ru_case_001_perfect",
+    "description": "Russian: Ideal scenario. High intent for location (Metro Moscow).",
+    "query": "2-комнатная квартира возле метро Москва, Алматы",
+    "relevant_ids": [101, 102],
+    "retrieved_ids": [101, 102, 500, 501, 502]
+  },
+  {
+    "id": "kz_case_002_ranking_disorder",
+    "description": "Kazakh: 'House for rent in Shymkent'. Relevant item found but ranked 4th.",
+    "query": "Шымкент қаласында жер үй жалдау",
+    "relevant_ids": [201],
+    "retrieved_ids": [505, 506, 507, 201, 508]
+  },
+  {
+    "id": "ru_case_003_student_noise",
+    "description": "Russian: 'Cheap flat for students'. System found relevant items but mixed with noise.",
+    "query": "Дешевая квартира для студентов, можно парням",
+    "relevant_ids": [301, 302, 303],
+    "retrieved_ids": [600, 301, 601, 602, 302]
+  },
+  {
+    "id": "kz_case_004_cutoff_miss",
+    "description": "Kazakh: 'Luxury apartment in Astana'. Relevant item is at pos 6 (missed if k=5).",
+    "query": "Астанада элиталық пәтер керек, ремонт жақсы",
+    "relevant_ids": [401],
+    "retrieved_ids": [510, 511, 512, 513, 514, 401]
+  },
+  {
+    "id": "ru_case_005_cottage_pool",
+    "description": "Russian: 'Cottage with pool'. Perfect retrieval of 3 items.",
+    "query": "Аренда коттеджа с бассейном и сауной на выходные",
+    "relevant_ids": [501, 502, 503],
+    "retrieved_ids": [501, 502, 503, 900, 901]
+  },
+  {
+    "id": "kz_case_006_university_partial",
+    "description": "Kazakh: '1 room near university'. Found 1 relevant, missed others.",
+    "query": "Университет жанында 1 бөлмелі пәтер",
+    "relevant_ids": [601, 602, 603],
+    "retrieved_ids": [601, 900, 901, 902, 903]
+  },
+  {
+    "id": "ru_case_007_office_fail",
+    "description": "Russian: 'Office space'. Retrieved completely irrelevant residential listings.",
+    "query": "Снять офис в Бостандыкском районе под бизнес",
+    "relevant_ids": [701, 702],
+    "retrieved_ids": [800, 801, 802, 803, 804]
+  },
+  {
+    "id": "kz_case_008_pets_mrr_high",
+    "description": "Kazakh: 'Flat allowing cats'. First result is perfect, subsequent ones are wrong.",
+    "query": "Мысықпен тұруға болатын пәтер іздеймін",
+    "relevant_ids": [801, 802, 803],
+    "retrieved_ids": [801, 905, 906, 907, 908]
+  },
+  {
+    "id": "ru_case_009_medeu_oversaturated",
+    "description": "Russian: '3-room Medeu district'. Many relevant items exist, retrieval capped.",
+    "query": "3-комнатная квартира в Медеуском районе",
+    "relevant_ids": [10, 11, 12, 13, 14, 15, 16, 17, 18, 19],
+    "retrieved_ids": [10, 11, 12, 900, 901]
+  },
+  {
+    "id": "kz_case_010_euro_renovation",
+    "description": "Kazakh: 'Euro renovation'. Ambiguous query led to mixed results.",
+    "query": "Евроремонт жасалған таза пәтер",
+    "relevant_ids": [1001, 1002],
+    "retrieved_ids": [950, 951, 1001, 952, 1002]
+  },
+  {
+    "id": "ru_case_011_specific_complex",
+    "description": "Russian: Specific residential complex 'Gagarin Park'. Exact match required.",
+    "query": "ЖК Гагарин Парк 1-комнатная",
+    "relevant_ids": [1101, 1102],
+    "retrieved_ids": [1101, 1105, 1102, 1106, 1107]
+  },
+  {
+    "id": "kz_case_012_daily_rent",
+    "description": "Kazakh: 'Daily rent'. Temporal relevance.",
+    "query": "Тәулікке пәтер керек, бүгінге",
+    "relevant_ids": [1201, 1202],
+    "retrieved_ids": [1201, 1202, 500, 501, 502]
+  },
+  {
+    "id": "ru_case_013_view_mountains",
+    "description": "Russian: 'View of mountains'. Hard semantic attribute.",
+    "query": "Квартира с красивым видом на горы, верхний этаж",
+    "relevant_ids": [1301],
+    "retrieved_ids": [1301, 555, 556, 557, 558]
+  },
+  {
+    "id": "kz_case_014_cheap_hostel",
+    "description": "Kazakh: 'Cheap hostel/dorm'. Low price segment.",
+    "query": "Арзан жатақхана немесе хостел",
+    "relevant_ids": [1401, 1402, 1403],
+    "retrieved_ids": [600, 601, 1401, 602, 603]
+  },
+  {
+    "id": "ru_case_015_shop_ground_floor",
+    "description": "Russian: 'Shop on ground floor'. Commercial specific.",
+    "query": "Помещение под магазин на первом этаже, первая линия",
+    "relevant_ids": [1501, 1502],
+    "retrieved_ids": [1501, 800, 1502, 801, 802]
+  },
+  {
+    "id": "kz_case_016_large_family_house",
+    "description": "Kazakh: 'Big house for large family'.",
+    "query": "Үлкен отбасыға арналған кең үй",
+    "relevant_ids": [1601, 1602],
+    "retrieved_ids": [505, 506, 1601, 507, 508]
+  },
+  {
+    "id": "ru_case_017_near_mall",
+    "description": "Russian: 'Near Mega Center'. Landmark search.",
+    "query": "Квартира рядом с Мега Центром на Розыбакиева",
+    "relevant_ids": [1701, 1702, 1703],
+    "retrieved_ids": [1701, 1702, 1703, 500, 501]
+  },
+  {
+    "id": "kz_case_018_left_bank",
+    "description": "Kazakh: 'New building Left Bank (Astana)'.",
+    "query": "Сол жағалаудан жаңа үйден пәтер",
+    "relevant_ids": [1801, 1802],
+    "retrieved_ids": [1802, 1801, 510, 511, 512]
+  },
+  {
+    "id": "ru_case_019_old_cheap",
+    "description": "Russian: 'Old cheap building'. Negative filter (not new).",
+    "query": "Вторичка недорого, можно без ремонта",
+    "relevant_ids": [1901],
+    "retrieved_ids": [900, 901, 902, 903, 1901]
+  },
+  {
+    "id": "kz_case_020_center_office",
+    "description": "Kazakh: 'Office in city center'.",
+    "query": "Қаланың орталығынан кеңсе іздеймін",
+    "relevant_ids": [2001, 2002],
+    "retrieved_ids": [2001, 800, 801, 802, 2002]
+  },
+  {
+    "id": "mix_case_021_satpayev_code_switch",
+    "description": "Mixed: '2 room[KZ] on Satpayev[RU] long term'. Tests grammatical mixing.",
+    "query": "2 бөлмелі на Сатпаева долгосрочно",
+    "relevant_ids": [2101],
+    "retrieved_ids": []
+  },
+  {
+    "id": "mix_case_022_cheap_family_mix",
+    "description": "Mixed: 'Rent[RU] cheap apartment[KZ] for family[RU]'. Tests vocabulary mixing.",
+    "query": "Снять арзан пәтер семейным",
+    "relevant_ids": [2102],
+    "retrieved_ids": []
+  },
+  {
+    "id": "mix_case_023_landmark_mix",
+    "description": "Mixed: 'Near Almaty Arena[KZ] 1-room[RU]'. Tests location context switching.",
+    "query": "Алматы Арена жанынан 1-комнатная",
+    "relevant_ids": [2103],
+    "retrieved_ids": []
+  }
+
+]

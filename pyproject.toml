@@ -1,0 +1,33 @@
+[project]
+name = "krisha-ai"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+classifiers = [
+  "Programming Language :: Python :: 3 :: Only",
+  "Programming Language :: Python :: 3.13",
+  "Programming Language :: Python :: 3.14",
+]
+dependencies = [
+  "cashews>=7.4.4",
+  "chainlit>=2.9.6",
+  "clean-text>=0.7.1",
+  "faiss-cpu>=1.13.2",
+  "ftfy>=6.3.1",
+  "httpx[http2]>=0.28.1",
+  "instructor>=1.14.4",
+  "loguru>=0.7.3",
+  "price-parser>=0.5",
+  "rank-bm25>=0.2.2",
+]
+
+[tool.setuptools]
+package-dir = { "" = "src" }
+packages = [ "wsp_attender" ]
+
+[tool.mypy]
+ignore_missing_imports = true
+exclude = [
+  "evaluation/",
+]

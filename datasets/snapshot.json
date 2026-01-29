@@ -1,0 +1,394 @@
+[
+  {
+    "id": 101,
+    "title": "2-room apartment near Metro Moscow",
+    "price": 250000,
+    "address": "Abay Ave, Almaty",
+    "full_text_content": "Cozy 2-room flat in Almaty. Located right next to Metro Moscow station. Clean, renovation. Ideal for couples."
+  },
+  {
+    "id": 102,
+    "title": "Flat in center, Moscow Station",
+    "price": 240000,
+    "address": "Altynsarin, Almaty",
+    "full_text_content": "Rent apartment near subway station Moscow. Good condition, furnished."
+  },
+  {
+    "id": 201,
+    "title": "House for rent in Shymkent",
+    "price": 150000,
+    "address": "Shymkent, Kunayev st",
+    "full_text_content": "Private house with a garden in Shymkent city. Long term rent. Garage included. Шымкент қаласында жер үй."
+  },
+  {
+    "id": 301,
+    "title": "Cheap 1-room for students",
+    "price": 90000,
+    "address": "Almaty, Manas st",
+    "full_text_content": "Simple flat for students. Low price. Near university. Boys allowed. Студентам можно."
+  },
+  {
+    "id": 302,
+    "title": "Studio for students",
+    "price": 85000,
+    "address": "Almaty, Satpayev st",
+    "full_text_content": "Cheap studio apartment near KazNU. Perfect for students."
+  },
+  {
+    "id": 303,
+    "title": "Dormitory room",
+    "price": 60000,
+    "address": "Almaty",
+    "full_text_content": "Room in a dormitory. Shared kitchen. Students welcome."
+  },
+  {
+    "id": 401,
+    "title": "Luxury Penthouse in Astana",
+    "price": 800000,
+    "address": "Astana, Left Bank",
+    "full_text_content": "Elite apartment in Astana. High quality renovation, italian furniture, panoramic view. Элиталық пәтер."
+  },
+  {
+    "id": 501,
+    "title": "Cottage with pool",
+    "price": 120000,
+    "address": "Almaty mountains",
+    "full_text_content": "Rent a cottage for weekends. Sauna, swimming pool, billiard. Great for parties."
+  },
+  {
+    "id": 502,
+    "title": "Villa with Sauna",
+    "price": 150000,
+    "address": "Almaty, Baganashil",
+    "full_text_content": "Luxury villa for rent. Includes sauna and outdoor pool."
+  },
+  {
+    "id": 503,
+    "title": "Guest house",
+    "price": 90000,
+    "address": "Almaty",
+    "full_text_content": "Guest house in the mountains. Fresh air, sauna, pool."
+  },
+  {
+    "id": 601,
+    "title": "1-room near University",
+    "price": 110000,
+    "address": "Almaty, Timiryazev",
+    "full_text_content": "1 бөлмелі пәтер университет жанында. КазГУ град. Жақсы жағдайда."
+  },
+  {
+    "id": 602,
+    "title": "Studio near Polytech",
+    "price": 100000,
+    "address": "Almaty, Satpayev",
+    "full_text_content": "Студенттерге арналған пәтер. Университет тимирязев."
+  },
+  {
+    "id": 603,
+    "title": "Flat near Agrarian Uni",
+    "price": 95000,
+    "address": "Almaty, Abay",
+    "full_text_content": "Универ жанында пәтер жалдау."
+  },
+  {
+    "id": 701,
+    "title": "Office Space Bostandyk",
+    "price": 400000,
+    "address": "Almaty, Bostandyk district",
+    "full_text_content": "Commercial office space for rent. Business center. Bostandyk area."
+  },
+  {
+    "id": 702,
+    "title": "Small Office",
+    "price": 200000,
+    "address": "Almaty, Gagarin",
+    "full_text_content": "Офис в аренду. Бостандыкский район."
+  },
+  {
+    "id": 801,
+    "title": "Pet friendly flat",
+    "price": 200000,
+    "address": "Almaty",
+    "full_text_content": "Renovated flat. We allow cats and small dogs. Мысықпен тұруға болады."
+  },
+  {
+    "id": 802,
+    "title": "2-room pet friendly",
+    "price": 220000,
+    "address": "Almaty",
+    "full_text_content": "Apartment for rent. Pets allowed. Dogs and cats ok."
+  },
+  {
+    "id": 803,
+    "title": "Simple flat pets ok",
+    "price": 180000,
+    "address": "Almaty",
+    "full_text_content": "Clean apartment. Landlord allows pets (cats)."
+  },
+  {
+    "id": 10,
+    "title": "Medeu flat 1",
+    "price": 300000,
+    "address": "Medeu district",
+    "full_text_content": "3-комнатная квартира в Медеуском районе. Самал."
+  },
+  {
+    "id": 11,
+    "title": "Medeu flat 2",
+    "price": 320000,
+    "address": "Medeu district",
+    "full_text_content": "Отличная трешка, Медеуский район. Достык."
+  },
+  {
+    "id": 12,
+    "title": "Medeu flat 3",
+    "price": 310000,
+    "address": "Medeu district",
+    "full_text_content": "Квартира на Ленина, Медеуский район. 3 комнаты."
+  },
+  {
+    "id": 13,
+    "title": "Medeu flat 4",
+    "price": 300000,
+    "address": "Medeu district",
+    "full_text_content": "3-room apartment Medeu."
+  },
+  {
+    "id": 14,
+    "title": "Medeu flat 5",
+    "price": 300000,
+    "address": "Medeu district",
+    "full_text_content": "Rent flat Medeu district."
+  },
+  {
+    "id": 15,
+    "title": "Medeu flat 6",
+    "price": 300000,
+    "address": "Medeu district",
+    "full_text_content": "Apartment Medeu."
+  },
+  {
+    "id": 16,
+    "title": "Medeu flat 7",
+    "price": 300000,
+    "address": "Medeu district",
+    "full_text_content": "Flat Medeu."
+  },
+  {
+    "id": 17,
+    "title": "Medeu flat 8",
+    "price": 300000,
+    "address": "Medeu district",
+    "full_text_content": "Medeu rent."
+  },
+  {
+    "id": 18,
+    "title": "Medeu flat 9",
+    "price": 300000,
+    "address": "Medeu district",
+    "full_text_content": "Medeu apartment."
+  },
+  {
+    "id": 19,
+    "title": "Medeu flat 10",
+    "price": 300000,
+    "address": "Medeu district",
+    "full_text_content": "Medeu flat."
+  },
+  {
+    "id": 1001,
+    "title": "Euro Renovation Flat",
+    "price": 280000,
+    "address": "Almaty",
+    "full_text_content": "Евроремонт. Жаңа жиһаз. Таза пәтер."
+  },
+  {
+    "id": 1002,
+    "title": "Fresh Renovation",
+    "price": 290000,
+    "address": "Almaty",
+    "full_text_content": "Жақында ремонт жасалған. Евроремонт."
+  },
+  {
+    "id": 1101,
+    "title": "Gagarin Park 1-room",
+    "price": 250000,
+    "address": "Gagarin Park",
+    "full_text_content": "1-комнатная квартира в ЖК Гагарин Парк. Новый ремонт."
+  },
+  {
+    "id": 1102,
+    "title": "Gagarin Park Studio",
+    "price": 240000,
+    "address": "Gagarin Park",
+    "full_text_content": "Студия в жилом комплексе Гагарин Парк."
+  },
+  {
+    "id": 1201,
+    "title": "Daily Rent Flat",
+    "price": 15000,
+    "address": "Almaty",
+    "full_text_content": "Тәулікке беріледі. Күнделікті жалға алу. Daily rent."
+  },
+  {
+    "id": 1202,
+    "title": "Hourly/Daily Flat",
+    "price": 12000,
+    "address": "Almaty",
+    "full_text_content": "Пәтер сағатқа және тәулікке. Таза."
+  },
+  {
+    "id": 1301,
+    "title": "Mountain View Flat",
+    "price": 350000,
+    "address": "Almaty, Al-Farabi",
+    "full_text_content": "Шикарный вид на горы. Панорамные окна. Верхний этаж."
+  },
+  {
+    "id": 1401,
+    "title": "Hostel Bed",
+    "price": 30000,
+    "address": "Almaty",
+    "full_text_content": "Койко место в хостеле. Арзан жатақхана."
+  },
+  {
+    "id": 1402,
+    "title": "Cheap Dorm",
+    "price": 35000,
+    "address": "Almaty",
+    "full_text_content": "Жатақханадан орын беріледі."
+  },
+  {
+    "id": 1403,
+    "title": "Hostel Center",
+    "price": 40000,
+    "address": "Almaty",
+    "full_text_content": "Хостел в центре. Недорого."
+  },
+  {
+    "id": 1501,
+    "title": "Shop Space 1st floor",
+    "price": 500000,
+    "address": "Almaty",
+    "full_text_content": "Помещение под магазин. Первая линия. Первый этаж."
+  },
+  {
+    "id": 1502,
+    "title": "Commercial Retail",
+    "price": 600000,
+    "address": "Almaty",
+    "full_text_content": "Сдается под магазин или салон. 1 этаж. Витражи."
+  },
+  {
+    "id": 1601,
+    "title": "Large House",
+    "price": 400000,
+    "address": "Almaty suburbs",
+    "full_text_content": "Үлкен үй жалға беріледі. Отбасыға арналған. 5 бөлмелі."
+  },
+  {
+    "id": 1602,
+    "title": "Big Family House",
+    "price": 350000,
+    "address": "Almaty",
+    "full_text_content": "Кең үй. Үлкен отбасыға ыңғайлы."
+  },
+  {
+    "id": 1701,
+    "title": "Flat near Mega",
+    "price": 300000,
+    "address": "Rozybakiyeva",
+    "full_text_content": "Квартира прямо возле Мега Центра. Улица Розыбакиева."
+  },
+  {
+    "id": 1702,
+    "title": "Mega Center 2-room",
+    "price": 290000,
+    "address": "Rozybakiyeva",
+    "full_text_content": "Рядом ТРЦ Mega. Отличное расположение."
+  },
+  {
+    "id": 1703,
+    "title": "Mega District",
+    "price": 280000,
+    "address": "Almaty",
+    "full_text_content": "Район Меги. Развитая инфраструктура."
+  },
+  {
+    "id": 1801,
+    "title": "Left Bank Astana",
+    "price": 250000,
+    "address": "Astana",
+    "full_text_content": "Астана сол жағалау. Жаңа үй. New building left bank."
+  },
+  {
+    "id": 1802,
+    "title": "Botanic Garden Flat",
+    "price": 260000,
+    "address": "Astana",
+    "full_text_content": "Сол жағалау. Ботаникалық бақ. Жаңа тұрғын үй кешені."
+  },
+  {
+    "id": 1901,
+    "title": "Old cheap flat",
+    "price": 120000,
+    "address": "Almaty, 1st microdistrict",
+    "full_text_content": "Старая квартира, без ремонта. Вторичка. Недорого."
+  },
+  {
+    "id": 2001,
+    "title": "Center Office",
+    "price": 300000,
+    "address": "Almaty, Center",
+    "full_text_content": "Кеңсе қала орталығында. Офис в центре."
+  },
+  {
+    "id": 2002,
+    "title": "Office Golden Square",
+    "price": 350000,
+    "address": "Almaty",
+    "full_text_content": "Золотой квадрат. Кеңсе жалға беріледі."
+  },
+  {
+    "id": 900,
+    "title": "Random Noise Flat 1",
+    "price": 200000,
+    "address": "Almaty",
+    "full_text_content": "Average apartment, nothing special. Far from metro."
+  },
+  {
+    "id": 901,
+    "title": "Random Noise Flat 2",
+    "price": 180000,
+    "address": "Astana",
+    "full_text_content": "Simple flat in Astana, old district."
+  },
+  {
+    "id": 902,
+    "title": "Commercial Shop",
+    "price": 500000,
+    "address": "Almaty",
+    "full_text_content": "Shop for rent on ground floor. High traffic area."
+  },
+  {
+    "id": 2101,
+    "title": "2-комнатная пәтер Satpayev",
+    "price": 280000,
+    "address": "Almaty, Satpayev st",
+    "full_text_content": "Сдается 2 бөлмелі пәтер. Район Сатпаева - Ленина. Евроремонт. Жақсы жағдайда. Полностью меблирована."
+  },
+  {
+    "id": 2102,
+    "title": "Арзан квартира тез арада",
+    "price": 100000,
+    "address": "Almaty, Taugul",
+    "full_text_content": "Срочно, недорого. Арзан бағаға пәтер жалға беріледі. Только семейным. Отбасыға."
+  },
+  {
+    "id": 2103,
+    "title": "1-room Almaty Arena",
+    "price": 160000,
+    "address": "Almaty, Almaty Arena",
+    "full_text_content": "Однокомнатная квартира возле Алматы Арена. Жаңа ЖК. Чистая, уютная."
+  }
+]
